@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        nav{
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 35px;
+        }
+        .container{
+            width: 1250px;
+            margin: 0 auto;
+        }
+        .header-container{
+            width: 1250px;
+            margin: 0 auto;
+            position: absolute;
+            left:50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+           
+        }
+        .header-container-inner{
+           
+            width: 50%;
+        }
+        .btn{
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: bold;
+            background-color: yellow;
+            padding: 16px 32px;
+            color: white;
+            border-radius: 16px;
+            display: inline-block;
+        }
+        header{
+            height: 100vh;
+            color: white;
+            
+            position: relative;
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.6),
+                rgba(0, 0, 0, 0.6)
+                ),
+                url(hero\ \(1\).jpg); 
+                background-size: cover;
+        }
+        h1{
+            font-size: 50px;
+            line-height: 1.1;
+            margin-bottom: 36px;
+        }
+        p{
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 44px;
+            margin-bottom: 30px;
+        }
+        section{
+            padding: 95px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGATION</div>
+        </nav>
+        <div class="header-container">
+            <div class="header-container-inner">
+            <h1>Healhy Meak Delivery Platform, Every Day</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing 
+                elit. Sed voluptatem eaque harum doloribus voluptatum. 
+                Explicabo saepe itaque culpa vel, tenetur, deleniti 
+                totam impedit voluptas delectus quibusdam ratione 
+                possimus cum eum.
+            </p>
+            <a href="a" class="btn">Start Eating Well</a>
+            </div>
+        </div>
+        </header>
+        <section>
+            <div class="container">
+            <h2>Some Random Heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Vel at animi temporibus ut veritatis, nemo eaque repellat laboriosam 
+                 exercitationem corporis autem quidem obcaecati
+                  ducimus eum quod porro architecto quis sequi.
+                </p>
+            </div>
+        </section>
+</body>
+</html>
